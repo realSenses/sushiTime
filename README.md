@@ -1,4 +1,6 @@
-# sushiTime LiveSite: <a href="https://sushi--time.herokuapp.com/">Sushi Time!</a>
+# sushiTime
+
+LiveSite: <a href="https://sushi--time.herokuapp.com/">Sushi Time!</a>
 
 This sushi tool was built using  MySQL, Node, Express, Handlebars a homemade ORM and love (with the ocassional beer thrown in the mix). This MVC pattern app uses Node and MySQL to query and route data, and Handlebars as a templating engine.
 
