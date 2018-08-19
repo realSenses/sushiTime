@@ -1,6 +1,10 @@
 body {
   font-family: 'Permanent Marker', cursive;
-  background-color: #c0dfcf; }
+  background: #30E8BF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #FF8235, #30E8BF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #FF8235, #30E8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+ }
 
 input:focus,
 select:focus,
@@ -53,17 +57,25 @@ button:focus {
   float: right;
   font-size: 15px; }
 
+#sushiCat {
+padding-left:33%;
+width:12%;
+
+}
+
 h2 {
   font-family: 'Permanent Marker', cursive;
   font-size: 55px;
   position: absolute;
   bottom: 5px;
   left: 20px;
-  color: #ff5252;
-  text-shadow: 1px 2px 0px #8b272d; }
+  color: #232526;  /* fallback for old browsers */
+  color: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
 
 button[type=submit] {
-  background-color: #ff5252;
+  background-color: #232526;
   color: #ffffff;
   border: none;
   cursor: pointer;
@@ -75,7 +87,7 @@ button[type=submit] {
     top: 50%;
     transform: translateY(-50%); }
   button[type=submit]:hover {
-    background-color: #db3737; }
+    background-color: #414345; }
 
 .container {
   width: calc(100% - 30px);
@@ -111,7 +123,7 @@ main .panel {
   transform: translateY(-50%); }
 
 .sushi-button {
-  background: #3D5B82;
+  background: #232526;
   height: 100%;
   width: 50px;
   float: right;
@@ -119,7 +131,7 @@ main .panel {
   text-align: center;
   color: #ffffff; }
   .sushi-button:hover {
-    background: #203c5c; }
+    background: #414345; }
   .sushi-button p, .sushi-button .icon {
     position: relative;
     top: 50%;
@@ -129,7 +141,11 @@ main .panel {
   width: 100%;
   position: fixed;
   top: 50px;
-  background-color: #9eccb6;
+  color: #414345;
+  background: #30E8BF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #FF8235, #30E8BF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #FF8235, #30E8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   
   height: 200px;
   z-index: 1;
